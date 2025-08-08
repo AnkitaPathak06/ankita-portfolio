@@ -1,0 +1,113 @@
+{
+  "profile": {
+    "name": "Ankita Pathak",
+    "title": "Product Manager",
+    "email": "pathak.ankita06@gmail.com",
+    "headshot": "HEADSHOT_URL"
+  },
+  "hero": {
+    "headline": "I turn ambiguous problems into simple, lovable products.",
+    "sub": "Focused on clarity, iteration speed, and measurable impact. I work end-to-end — discovery, definition, delivery."
+  },
+  "about": {
+    "intro": "I enjoy turning messy problems into flows users understand on the first try. Superpowers: prioritization, crisp specs, and closing the loop with data.",
+    "details": "Recent focus areas include onboarding, activation, paywalls, and analytics for product-led growth. I love validating early and shipping value weekly.",
+    "strengths": [
+      "Outcomes over output — define sharp success metrics, instrument, iterate.",
+      "Customer-backed decisions — pair qualitative insights with quantitative signals.",
+      "Write it down — clear PRDs, user stories, and release notes reduce churn.",
+      "Collaboration — alignment across design, engineering, and business."
+    ],
+    "skills": [
+      "Discovery & Research",
+      "PRD & Roadmaps",
+      "A/B Testing",
+      "Funnels & Cohorts",
+      "Stakeholder Alignment",
+      "Agile Delivery",
+      "Figma",
+      "Jira",
+      "Amplitude",
+      "GA4",
+      "SQL (basics)"
+    ]
+  },
+  "projects": [
+    {
+      "title": "Activation overhaul for web app",
+      "desc": "Redesigned first-run experience and lifecycle nudges; activation +22% within 60 days; time-to-value from 3 days → same-day.",
+      "tags": [
+        "Onboarding",
+        "Activation",
+        "Lifecycle"
+      ]
+    },
+    {
+      "title": "Search relevance improvements",
+      "desc": "Defined ranking signals and feedback loop; search success ↑18%, bounce ↓9%.",
+      "tags": [
+        "Relevance",
+        "Analytics",
+        "Experimentation"
+      ]
+    },
+    {
+      "title": "Mobile retention initiative",
+      "desc": "Introduced lightweight streaks and value resurfacing via notifications; 30-day retention +12% in target cohort.",
+      "tags": [
+        "Retention",
+        "Notifications",
+        "Cohorts"
+      ]
+    },
+    {
+      "title": "Self-serve billing & plans",
+      "desc": "Plan switcher and transparent trial→paid flows; conversion +7% and support tickets −23%.",
+      "tags": [
+        "Monetization",
+        "UX",
+        "PLG"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Product Manager",
+      "company": "Company Name",
+      "time": "YYYY – Present",
+      "location": "City",
+      "bullets": [
+        "Own onboarding, activation, and retention roadmap; shipped 10+ changes with measurable lifts.",
+        "Write PRDs, define success metrics, coordinate launches with design, engineering, and GTM."
+      ]
+    },
+    {
+      "title": "Associate Product Manager",
+      "company": "Company Name",
+      "time": "YYYY – YYYY",
+      "location": "City",
+      "bullets": [
+        "Ran discovery for new feature area; validated problem via interviews and usage data.",
+        "Partnered with engineering to deliver MVP; iterated using experiment results."
+      ]
+    },
+    {
+      "title": "Business Analyst / Intern",
+      "company": "Company Name",
+      "time": "YYYY – YYYY",
+      "location": "City",
+      "bullets": [
+        "Built dashboards and ad-hoc analyses to support product decisions.",
+        "Documented user journeys to reduce handoff ambiguity."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "line": "Degree • School • Year"
+    },
+    {
+      "line": "Relevant certification(s) • Year"
+    }
+  ]
+}
