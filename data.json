@@ -10,28 +10,17 @@
     "sub": "Focused on clarity, iteration speed, and measurable impact. I work end-to-end — discovery, definition, delivery."
   },
   "about": {
-    "intro": "I enjoy turning messy problems into flows users understand on the first try. Superpowers: prioritization, crisp specs, and closing the loop with data.",
-    "details": "Recent focus areas include onboarding, activation, paywalls, and analytics for product-led growth. I love validating early and shipping value weekly.",
-    "strengths": [
-      "Outcomes over output — define sharp success metrics, instrument, iterate.",
-      "Customer-backed decisions — pair qualitative insights with quantitative signals.",
-      "Write it down — clear PRDs, user stories, and release notes reduce churn.",
-      "Collaboration — alignment across design, engineering, and business."
-    ],
-    "skills": [
-      "Discovery & Research",
-      "PRD & Roadmaps",
-      "A/B Testing",
-      "Funnels & Cohorts",
-      "Stakeholder Alignment",
-      "Agile Delivery",
-      "Figma",
-      "Jira",
-      "Amplitude",
-      "GA4",
-      "SQL (basics)"
-    ]
-  },
+  "intro": "I turn ambiguous problems into simple, lovable products.",
+  "details": "B.Tech from JIIT Noida, followed by a career pivot through IIM Indore’s Business Analytics program. Since then I’ve worked as a Business Analyst across Healthcare and L&D—owning discovery, requirements, wireframes, UAT, and go-live readiness. I partner with clinicians, L&D leads, and engineers to map processes, write crisp BRDs/PRDs, run UAT, and measure outcomes—faster onboarding, cleaner data capture, and fewer handoffs.",
+  "strengths": [
+    "Domain empathy in Healthcare & L&D — compliance, privacy, and learner outcomes.",
+    "Data-first decisions — translating analysis into clear product choices.",
+    "Documentation & communication — BRDs, PRDs, user stories, and release notes.",
+    "Cross-functional facilitation — workshops, UAT, and change management."
+  ],
+  "skills": ["Discovery & Research","Requirements/PRD","Wireframing","UAT","Stakeholder Alignment","Agile Delivery","Figma","Jira","Basics: SQL & GA4"]
+}
+,
   "projects": [
     {
       "title": "Activation overhaul for web app",
