@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ankita Pathak — Product Manager</title>
+  <meta name="description" content="Preview of Ankita Pathak’s portfolio updates" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* Soft Lavender theme */
+    :root{ --bg:#f5f3ff; --text:#0f172a; --muted:#475569; --surface:#ffffff; --border:#e5e7eb; --chip:#ede9fe; --brand1:#ddd6fe; --brand2:#bae6fd; --brand3:#bbf7d0; }
+    *{box-sizing:border-box} html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.7 Poppins,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial}
+    a{color:inherit;text-decoration:none} img{max-width:100%;display:block} .container{max-width:1120px;margin:0 auto;padding:0 16px}
+    body::before{content:"";position:fixed;inset:-20vmax;z-index:-1;filter:blur(80px) saturate(120%);background:
+      radial-gradient(60% 50% at 20% 20%, var(--brand1) 0%, transparent 70%),
+      radial-gradient(50% 50% at 80% 30%, var(--brand2) 0%, transparent 70%),
+      radial-gradient(45% 45% at 20% 80%, var(--brand3) 0%, transparent 70%);
+      opacity:.35;}
+    .nav{position:sticky;top:0;z-index:50;background:rgba(245,243,255,.75);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;padding:10px 0} .logo{display:flex;gap:12px;align-items:center}
+    .logo-badge{position:relative;width:40px;height:40px;border-radius:12px;padding:2px;background:linear-gradient(135deg,var(--brand1),var(--brand2),var(--brand3))}
+    .logo-badge .in{display:grid;place-items:center;width:100%;height:100%;border-radius:10px;background:var(--bg);color:#1f2937;font-weight:900}
+    .logo .word{line-height:1.1} .logo .kicker{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)} .logo .name{font-size:18px;font-weight:700}
+    .nav-links{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+    .btn{display:inline-flex;gap:8px;align-items:center;padding:10px 14px;border:1px solid var(--border);border-radius:12px;background:#ffffffa0;transition:transform .15s ease, box-shadow .15s ease}
+    .btn:hover{transform:translateY(-2px);box-shadow:0 0 0 2px rgba(2,6,23,0.06)} .btn.primary{background:#0f172a;color:#fff;border-color:#0f172a}
+    .hero{position:relative;overflow:hidden} .hero-inner{padding:80px 0 56px} .hero h1{font-size:clamp(26px,4.3vw,44px);line-height:1.15;margin:0 0 12px}
+    .hero p{max-width:780px;margin:0 0 18px;color:var(--muted);font-size:clamp(15px,1.8vw,18px)} .hero-ctas{display:flex;gap:12px;flex-wrap:wrap}
+    .shimmer{position:absolute;left:50%;bottom:-50px;transform:translateX(-50%) rotate(-3deg);width:120%;height:220px;background:linear-gradient(90deg,transparent,rgba(0,0,0,.06),transparent);filter:blur(24px);pointer-events:none}
+    section{padding:56px 0;border-top:1px solid var(--border)} section:first-of-type{border-top:none}
+    .section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin:0 0 24px} .section-head h2{font-size:22px;margin:0}
+    .subhead{font-size:14px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:6px 0 14px}
+    .about-grid{display:grid;grid-template-columns:1fr;gap:16px} @media(min-width:900px){.about-grid{grid-template-columns:1.1fr .9fr}}
+    .surface{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px}
+    .profile{display:grid;grid-template-columns:72px 1fr;gap:12px;align-items:center;margin-bottom:8px}
+    .avatar{width:72px;height:72px;border-radius:50%;display:grid;place-items:center;font-weight:800;background:linear-gradient(135deg,var(--brand1),var(--brand2),var(--brand3));color:#1f2937;border:2px solid #fff;overflow:hidden}
+    .chips{margin-top:10px} .chip{display:inline-block;padding:6px 10px;border-radius:999px;background:var(--chip);border:1px solid var(--border);font-size:13px;margin:6px 6px 0 0}
+    .cards{display:grid;grid-template-columns:repeat(12,1fr);gap:16px} .card{grid-column:span 12;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:18px}
+    @media(min-width:720px){.card{grid-column:span 6}} @media(min-width:1024px){.card{grid-column:span 4}} .card h3{margin:0 0 6px;font-size:18px} .card p{margin:0;color:var(--muted)}
+    .timeline{display:grid;gap:14px} .item{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:14px}
+    .item h3{margin:0 0 4px;font-size:17px} .item small{color:var(--muted)} footer{border-top:1px solid var(--border);padding:28px 0;color:var(--muted);font-size:14px}
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="logo">
+        <div class="logo-badge" aria-hidden="true"><div class="in">AP</div></div>
+        <div class="word"><div class="kicker">Portfolio</div><div class="name">Ankita Pathak</div></div>
+      </a>
+      <nav class="nav-links">
+        <a href="#about" class="btn">About</a>
+        <a href="#projects" class="btn">Projects</a>
+        <a href="#experience" class="btn">Experience</a>
+        <a href="#education" class="btn">Education</a>
+        <a href="#contact" class="btn primary">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top" class="hero">
+    <div class="container hero-inner">
+      <h1 id="h1"></h1>
+      <p id="hsub"></p>
+      <div class="hero-ctas">
+        <a class="btn primary" href="#projects">See projects</a>
+        <a class="btn" href="https://www.linkedin.com/in/ankita-pathak06/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <div class="shimmer" aria-hidden="true"></div>
+    </div>
+  </main>
+
+  <section id="about">
+    <div class="container">
+      <div class="section-head"><div><h2>Get to know me</h2></div></div>
+      <div class="about-grid">
+        <div class="surface">
+          <div class="profile">
+            <div class="avatar"><span>AP</span></div>
+            <div>
+              <strong style="font-size:18px" id="name"></strong>
+              <div class="muted" id="title"></div>
+              <div class="muted" style="margin-top:4px">📧 <a id="email"></a></div>
+            </div>
+          </div>
+          <p id="aboutIntro"></p>
+          <p id="aboutDetails"></p>
+          <div class="chips" id="skills"></div>
+        </div>
+        <div class="surface">
+          <div class="section-head" style="margin:0 0 10px"><div><h2 style="font-size:18px">Strengths & Tools</h2></div></div>
+          <ul id="strengths" style="margin:0 0 6px 18px"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <div class="section-head"><div><h2>Projects</h2></div></div>
+      <div class="subhead">Work Projects</div>
+      <div class="cards" id="projWork"></div>
+      <div class="subhead" style="margin-top:20px">Academic Projects</div>
+      <div class="cards" id="projAcad"></div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container">
+      <div class="section-head"><div><h2>Experience</h2></div></div>
+      <div class="timeline" id="exp"></div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="container">
+      <div class="section-head"><div><h2>Education & Certifications</h2></div></div>
+      <div class="timeline" id="edu"></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="section-head"><div><h2>Let’s talk</h2></div></div>
+      <div class="surface">
+        <p class="muted">Reach out via email or LinkedIn.</p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:8px">
+          <a class="btn primary" id="emailCta">✉️ Email</a>
+          <a class="btn" href="https://www.linkedin.com/in/ankita-pathak06/" target="_blank" rel="noopener">🔗 LinkedIn</a>
+        </div>
+        <p style="margin-top:10px">Or write to me at <a id="emailTextLink"></a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+      <div>© <span id="y"></span> <strong>Ankita Pathak</strong>. All rights reserved.</div>
+      <div class="muted">Edit data.json to update content; change colors/fonts in index.html (:root).</div>
+    </div>
+  </footer>
+  <script>
+let D=null; const GMAIL='https://mail.google.com/mail/?view=cm&to=pathak.ankita06%40gmail.com&su=Hello%20Ankita';
+fetch('data.json?v='+Date.now(), {cache:'no-store'}).then(r=>r.json()).then(d=>{
+D=d;
+const $ = (id)=>document.getElementById(id);
+document.getElementById('y').textContent = new Date().getFullYear();
+document.getElementById('h1').textContent = D.hero.headline;
+document.getElementById('hsub').textContent = D.hero.sub;
+document.getElementById('name').textContent = D.profile.name;
+document.getElementById('title').textContent = D.profile.title;
+document.getElementById('email').textContent = D.profile.email;
+document.getElementById('email').href = GMAIL;
+document.getElementById('emailCta').href = GMAIL;
+document.getElementById('emailTextLink').textContent = D.profile.email;
+document.getElementById('emailTextLink').href = GMAIL;
+document.getElementById('aboutIntro').textContent = D.about.intro;
+document.getElementById('aboutDetails').textContent = D.about.details;
+D.about.skills.forEach(s=>{const span=document.createElement('span'); span.className='chip'; span.textContent=s; document.getElementById('skills').appendChild(span);});
+D.about.strengths.forEach(s=>{const li=document.createElement('li'); li.textContent=s; document.getElementById('strengths').appendChild(li);});
+D.projects.work.forEach(p=>{const card=document.createElement('article'); card.className='card'; card.innerHTML = '<h3>'+p.title+'</h3><p>'+p.desc+'</p><div class="chips">'+(p.tags||[]).map(t=>'<span class="chip">'+t+'</span>').join('')+'</div>'; document.getElementById('projWork').appendChild(card);});
+D.projects.academic.forEach(p=>{const card=document.createElement('article'); card.className='card'; card.innerHTML = '<h3>'+p.title+'</h3><p>'+p.desc+'</p><div class="chips">'+(p.tags||[]).map(t=>'<span class="chip">'+t+'</span>').join('')+'</div>'; document.getElementById('projAcad').appendChild(card);});
+D.experience.forEach(e=>{const item=document.createElement('div'); item.className='item'; item.innerHTML='<h3>'+e.title+' — '+e.company+'</h3><small>'+e.time+(e.location? ' • '+e.location : '')+'</small><ul style="margin:8px 0 0 18px">'+(e.bullets||[]).map(b=>'<li>'+b+'</li>').join('')+'</ul>'; document.getElementById('exp').appendChild(item);});
+if (D.education && D.education.length){ const item=document.createElement('div'); item.className='item'; item.innerHTML='<ul style="margin:8px 0 0 18px">'+D.education.map(x=>'<li>'+x.line+'</li>').join('')+'</ul>'; document.getElementById('edu').appendChild(item);}
+}).catch(e=>console.warn('Failed to load data.json', e));
+// Smooth scroll
+// Smooth scroll
+document.querySelectorAll('a[href^="#"]').forEach(a => { a.addEventListener('click',(e)=>{ const id=a.getAttribute('href'); if(id.length>1){ const el=document.querySelector(id); if(el){ e.preventDefault(); el.scrollIntoView({behavior:'smooth', block:'start'});}}});});
+  </script>
+</body>
+</html>
